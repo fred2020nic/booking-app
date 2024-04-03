@@ -6,7 +6,7 @@ import { useDispatch } from "react-redux";
 import { savedPlaces } from "../SavedReducer";
 import { setDoc,doc } from "firebase/firestore";
 import { auth, db } from "../firebase";
-
+//3366
 const ConfirmationScreen = () => {
   const route = useRoute();
   const navigation = useNavigation();
